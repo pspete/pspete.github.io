@@ -15,7 +15,7 @@ data:
       background_color: "#2B303A"
 
     - title: Support
-      excerpt: <a href="mailto:hello@pspete.dev"><i class="fas fa-envelope"></i> support@pspete.dev</a>
+      excerpt: <a href="mailto:support@pspete.dev"><i class="fas fa-envelope"></i> support@pspete.dev</a>
       background_color: "#ABA9BF"
 
     - title: Phone

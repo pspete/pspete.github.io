@@ -6,8 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 ## !USE TEXT THEME
-theme: jekyll-text-theme # Gem-based Jekyll Themes
-# remote_theme: kitian616/jekyll-TeXt-theme # Jekyll Remote Theme, see https://github.com/benbalter/jekyll-remote-theme for more information.
+#theme: jekyll-text-theme # Gem-based Jekyll Themes
+remote_theme: kitian616/jekyll-TeXt-theme # Jekyll Remote Theme, see https://github.com/benbalter/jekyll-remote-theme for more information.
 #
 # ,--------.      ,--.   ,--. ,--.
 # '--.  .--',---.  \  `.'  /,-'  '-.
@@ -36,7 +36,7 @@ author:
   name      : PSPETE
   url       : https://www.pspete.dev
   avatar    : "/assets/images/bio-photo.jpg" # path or url of avatar image (square)
-  bio       : 
+  bio       :
   email     : hello@pspete.dev
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : _pspete # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
@@ -215,6 +215,7 @@ defaults:
 ## => Plugins
 ##############################
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
